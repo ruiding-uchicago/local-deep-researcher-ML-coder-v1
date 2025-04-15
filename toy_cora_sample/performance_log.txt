@@ -1,0 +1,6 @@
+2025-04-14 15:57:20 - Final Train Acc: 1.0000, Val Acc: 0.7620, Test Acc: 0.7860
+2025-04-14 16:19:04 - Final Train Acc: 1.0000, Val Acc: 0.7720, Test Acc: 0.7930
+2025-04-14 16:19:56 - Final Train Acc: 1.0000, Val Acc: 0.7680, Test Acc: 0.7920
+2025-04-14 16:20:03 - Final Train Acc: 1.0000, Val Acc: 0.7740, Test Acc: 0.8070
+2025-04-14 16:20:09 - Final Train Acc: 1.0000, Val Acc: 0.7720, Test Acc: 0.7870
+2025-04-14 17:16:13 - Final Train Acc: 1.0000, Val Acc: 0.7580, Test Acc: 0.7750
