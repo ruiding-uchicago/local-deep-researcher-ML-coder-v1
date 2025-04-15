@@ -55,11 +55,7 @@ def generate_query(state: SummaryState, config: RunnableConfig):
 
     # Generate a query
     configurable = Configuration.from_runnable_config(defaul_config_long_recursion)
-    #quick check the recursion limit
-    print(f"recursion limit: {configurable.recursion_limit}")
-    #save this to a local file  
-    with open("recursion_limit.txt", "w") as f:
-        f.write(f"recursion limit: {configurable.recursion_limit}")
+    
     # Choose the appropriate LLM based on the provider
     if configurable.llm_provider == "lmstudio":
         llm_json_mode = ChatLMStudio(

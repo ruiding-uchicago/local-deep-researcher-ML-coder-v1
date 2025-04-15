@@ -1,0 +1,21 @@
+name: hackathon-DR-agent
+channels:
+  - pytorch-nightly
+  - defaults
+dependencies:
+  - python=3.11
+  # Conda packages
+  - pytorch
+  - torchvision
+  - torchaudio
+  - selenium
+  # Pip packages
+  - pip
+  - pip:
+    - webdriver-manager
+    - torch_geometric
+    - scikit-learn
+    - matplotlib
+    # If your project needs to be installed in editable mode, uncomment the line below
+    # (usually needed if the langgraph setup requires local package discovery)
+    # - -e .
